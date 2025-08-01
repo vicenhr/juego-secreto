@@ -13,12 +13,6 @@ function condicionesIniciales() {
     intentos = 1;
 }
 
-function asignarElementoTexto(elemento, texto) {
-    let etiqueta = document.querySelector(elemento);
-    etiqueta.innerHTML = texto;
-    return;
-}
-
 function generarNumeroAleatorio() {
     let numeroGenerado = Math.floor(Math.random() * numeroMaximo + 1);
 
